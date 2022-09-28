@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schedule id="1">
-  <id>4565230480500</id>
+  <id>4579350392400</id>
   <name>Schedule 1</name>
   <blockJob id="2">
     <block class="com.kapowtech.scheduler.server.entity.SequentialBlock" id="3">
       <project id="4"/>
-      <name>Schedule 11664382909991</name>
+      <name>Schedule 11664382924112</name>
       <namedBlock>false</namedBlock>
       <childReference id="5">
         <child class="concurrentBlock" id="6">
@@ -152,7 +152,7 @@
   &lt;__inputObjects&gt;
     &lt;OAuthInputObject&gt;
       &lt;allowNestedValues&gt;true&lt;/allowNestedValues&gt;
-      &lt;__variableName&gt;Schedule 11664382909991#0#Schedule 1:middleBlock#0#CallREST#credentials&lt;/__variableName&gt;
+      &lt;__variableName&gt;Schedule 11664382924112#0#Schedule 1:middleBlock#0#CallREST#credentials&lt;/__variableName&gt;
       &lt;__propertyNames&gt;
         &lt;string&gt;variableName&lt;/string&gt;
         &lt;string&gt;oAuthUserId&lt;/string&gt;
@@ -182,7 +182,7 @@
   <scheduler class="org.quartz.impl.StdScheduler" id="35">
     <scheduler/></scheduler>
   <trigger class="org.quartz.impl.triggers.SimpleTriggerImpl" id="36">
-    <name>4565230480500</name>
+    <name>4579350392400</name>
     <start id="37">2022-09-28 16:30:12.217 UTC</start>
     <interval>3600000</interval>
     <repeatCount>-1</repeatCount>
@@ -191,6 +191,6 @@
   <tasksPriority>MEDIUM</tasksPriority>
   <tasksTimeout>600000</tasksTimeout>
   <commitMessage/>
-  <lastModified id="38">2022-09-28 16:35:10.0 UTC</lastModified>
+  <lastModified id="38">2022-09-28 16:35:24.0 UTC</lastModified>
   <serializationVersion>1</serializationVersion>
 </schedule>
