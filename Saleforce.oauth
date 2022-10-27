@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oauthApplication id="1">
+  <name>Saleforce</name>
+  <serviceProvider>Salesforce sandbox</serviceProvider>
+  <consumerKey>3MVG9oZtFCVWuSwOvwwAVjUooDbry9oSO.h5QwGivIfTOSmDB1u5qPc2VKUOOIkO2CzSYLp9rz8aAhAHUdLCN</consumerKey>
+  <oauthUser id="2">
+    <id>499052836416600</id>
+    <name>user</name>
+    <oauthApplication reference="1"/>
+    <accessToken>mTLOqhK0bbvcb9kd9udHlowPVbIILC1A3Xpa7gEq02Sxj0NK8TsLS8GwwaFADIuDGBGKnvigVvzdbfVqn9eQzoFvWFxrf64hlLrTBTDd8OvbFFgbTWutzkjTeGXhFA232CFtS9Y7kM11bMaju7STO6wJ9Po0IPnsz/yvoFgLoGs=:OUV2diufL5sfuwoT:4y9SaWtqNRDXJPR9YYCYmf3OziXHAkeq4LfnGx1Rib5h/Vy0tuM3EisNvbkEMihlHaBklzwPxsWO3auvy6kaONjOgLQ9of4/Rh6qfaS4EW+5r2qNMkFiAi21z/yA9VCYk8e1WMp3BeVyIjcXJJF6xyuNqhMdn/EO7mkvBd8lvMs=</accessToken>
+    <accessTokenSecret/>
+    <refreshToken>WrIznlB81KgxX3aBD737smyAj32alVfi9A2etbMQKXULyA4Vcc42uoqxrV9Dcjg76AoiAm8fG52Z7ueJ3l9sUsfugXluJlPUvhg29yPBi4v8hg5QCCFPWGxIlFwmTjGvjUqTVlMa7DKHCWF4pcnPzUBrfzoBGCTz2Vblp+a8RtA=:pedSt2kghe969tv2:iuneTrasOQVVS+oAbF2SQ52OF67z0pp2EHBMBsh91j2Wf2MC9JxzRfOsX6OFutEtRwXZHxPsSxONbC32RkKhreuK5miI5Y07HI02f9zsN4ayoyU0OWZBgHZViiNi7tvSiLwS+2addw==</refreshToken>
+  </oauthUser>
+  <consumerSecret>JI4IJp0LUkM6PEeBawTJo/0TnmdffTzcvCLfeef4qpIn9pgldKTzXEhKWWwxv+xtLgXJXA2+GbotATYhmQ+l7eFR8ZzW2lGyknAcl0nAF8PYno3kCOtsc0hCaAo8ru2510MJP/Yx3C5gimuj10A0BOse+2Iq2MeYse7MooVg7NY=:lis9gcUdDh6M6ZPH:5jeD7j+Y91UxZb97X1ItVMy4psKXs4wx7Mw2qnggl99nLck9VMrFi1dDkMhJej8LOxgiVRQ/JWhBmExh0T+cV6D1DH3d5E2CV/LKWRYV4Vk=</consumerSecret>
+  <callbackURL>http://localhost:8080/ManagementConsole/OAuthCallback</callbackURL>
+  <scope/>
+  <project id="3"/>
+  <modifiedBy>admin</modifiedBy>
+  <revisionNumber>453064a12702d8ae7d05b0ab55c03d5196c2c1f6</revisionNumber>
+  <commitMessage>user name aleksey.golovko@kofax.com.rndtestbox, password Password: 2020Kapow2020</commitMessage>
+  <lastModified id="4">2022-10-25 13:34:03.0 UTC</lastModified>
+  <serializationVersion>1</serializationVersion>
+</oauthApplication>
