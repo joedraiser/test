@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<oauthApplication id="1">
+  <name>Twitter</name>
+  <serviceProvider>Twitter</serviceProvider>
+  <consumerKey>mHmzJU6mHL9kRYpha4sL1JcIP</consumerKey>
+  <oauthUser id="2">
+    <id>499290663181400</id>
+    <name>user</name>
+    <oauthApplication reference="1"/>
+    <accessToken>hskPxOBqZz10RBcuJlHYOjLaNRV3hzFQ/0V/zI+OzMdqHKv65Tl2VIg6Kqq0iEWTYilZBoAWNnUYzM5UnIzV2QP3i51TkS9Cv5JBhprMKCLQWUb9GRQxdqj6Et1kOcf3zJoTXJNKQOKbMEeNrKMClPv+Y6CSpj2sOcb+On/OO/Y=:iimmv3FOBWqC0W9B:7C8nMXxgOE1ruO33RUe5eTXPPkpPCfrkjmfZdGulOi/BuL+b9TGanPTGqMqlBn0p3Ki15muB8AaYK7kOyQkVtNOY</accessToken>
+    <accessTokenSecret>M/rqTSzju0c/uspQkubQhyhXhxzmMxydS/4DdiuueQJxvPfKyF4BMEihOUeV0zuJUunu6KzF3pRDVnBqnaRQyxYXSHxS6GuLsb4xd95nCjkHRlT0loqQ0MWSsC/ECSX0a9IOJ7ggAfmJvMHUYWPdmxwpeGiIpAtYmG0p2iLXuSs=:R5R2V8FuRcVhSGG3:sZuXPm/HIg0zCPZ50V/L0u1CfuB0Y9iyAmuAVUndREY0n6JoOw9fOBvE2EpFWgYDjLbEEx+EkTMLzYgphQ==</accessTokenSecret>
+    <refreshToken/>
+  </oauthUser>
+  <consumerSecret>haKzBGN5dVdLWfDXxI7U0VTkStIrn3UC0AM+60qIt7b/PpaQvo5foGli6eXOFeZSZQif7F8qTozU0DCkx8IbcGZTfkm3BB3lqHVMYPADHbhhZbOBjCmW6QFVde6V/GY3QickAuCZC1eejGA10Wd+EV2KcttFio/tT4tTey7kYSI=:0+90BiGQHpPcWCzW:vP401XLteunZq0BRPCij62UTovM742cEwXxttZfh12/PGx7QgFFjWr1V8pObevB1n0AVV5lBe9G9PsF/Xph8SCH2</consumerSecret>
+  <callbackURL>http://localhost:8080/ManagementConsole/OAuthCallback</callbackURL>
+  <scope/>
+  <project id="3"/>
+  <modifiedBy>admin</modifiedBy>
+  <revisionNumber>9d70be17c839aeb2a52ca07f531498a641f93754</revisionNumber>
+  <commitMessage>user name: kapowdevnull, password: devnull@twitter, phone number: +79817724553</commitMessage>
+  <lastModified id="4">2022-10-25 13:38:01.0 UTC</lastModified>
+  <serializationVersion>1</serializationVersion>
+</oauthApplication>
