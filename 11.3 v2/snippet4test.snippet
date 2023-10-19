@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<object class="Snippet" serializationversion="0">
+  <prologue>
+    <saved-by-versions>
+      <version>11.2.0.5</version>
+      <version>11.2.0.6</version>
+      <version>11.3.0.2</version>
+    </saved-by-versions>
+    <file-type>snippet</file-type>
+    <referenced-types/>
+    <triggers/>
+    <sub-robots>
+      <sub-robot name="RL2"/>
+    </sub-robots>
+    <device-mappings/>
+    <comment/>
+    <tags/>
+    <referenced-snippets/>
+    <typed-variables/>
+    <parameters/>
+    <return-variables/>
+    <store-in-database-variables>
+      <variable name="result"/>
+    </store-in-database-variables>
+    <browser-engine>WEBKIT</browser-engine>
+  </prologue>
+  <property name="variables" class="Variables"/>
+  <comment class="String"/>
+  <body class="Body">
+    <blockBeginStep class="BlockBeginStep" id="0"/>
+    <steps class="ArrayList">
+      <object class="Transition" serializationversion="3" id="1">
+        <property name="name" class="String">Wait</property>
+        <property name="stepAction" class="Wait2">
+          <property name="seconds" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression">
+            <property name="value" class="String">1</property>
+          </property>
+        </property>
+        <property name="elementFinders" class="ElementFinders" id="2"/>
+        <property name="errorHandler" class="ErrorHandler" serializationversion="0" id="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" class="Boolean" id="4">true</property>
+        <property name="changedProperties" class="java.util.HashSet" id="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="6">
+        <property name="name" class="String">Call RL2</property>
+        <property name="stepAction" class="CallRobot2Step">
+          <property name="robot2Name" class="String">RL2</property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="7">
+        <property name="name" class="String">Store in Database</property>
+        <property name="stepAction" class="StoreInDatabase" serializationversion="0">
+          <property name="variableName" class="kapow.robot.plugin.common.support.VariableName">
+            <property name="name" class="String">result</property>
+          </property>
+          <property name="key" class="kapow.robot.plugin.common.support.expression.multipletype.VariableExpression" serializationversion="2">
+            <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2" id="8">
+              <property name="name" class="String">result.Hostname</property>
+            </property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="9">
+        <property name="name" class="String">Assign Hostname</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" class="kapow.robot.plugin.common.support.expression.stringexpr.ValueStringExpression" id="10">
+            <property name="value" class="String">NULL</property>
+          </property>
+          <property name="variable" idref="8"/>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="11">
+        <property name="name" class="String">Assign CPU</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" idref="10"/>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">result.CPU</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="12">
+        <property name="name" class="String">Assign RAM</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" idref="10"/>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">result.RAM</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="13">
+        <property name="name" class="String">Assign OS</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" idref="10"/>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">result.OS</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="14">
+        <property name="name" class="String">Assign Date</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" idref="10"/>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">result.Date</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="15">
+        <property name="name" class="String">Assign GPU</property>
+        <property name="stepAction" class="AssignVariable" serializationversion="4">
+          <property name="stringExpr" idref="10"/>
+          <property name="variable" class="kapow.robot.plugin.common.support.AttributeName2">
+            <property name="name" class="String">result.GPU</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+      <object class="Transition" serializationversion="3" id="16">
+        <property name="name" class="String">Write Log</property>
+        <property name="stepAction" class="WriteLog2">
+          <property name="expression" class="Expression" serializationversion="1">
+            <property name="text" class="String">"Result var was flushed values with 
+Hostname = " + result.Hostname + "
+CPU = " + result.CPU + "
+RAM = " + result.RAM +"
+OS = " + result.OS + "
+GPU = " + result.GPU + "
+Date = " + result.Date + "\n"</property>
+          </property>
+        </property>
+        <property name="elementFinders" idref="2"/>
+        <property name="errorHandler" idref="3"/>
+        <property name="comment">
+          <null/>
+        </property>
+        <property name="enabled" idref="4"/>
+        <property name="changedProperties" idref="5"/>
+      </object>
+    </steps>
+    <blockEndStep class="BlockEndStep" id="17"/>
+    <edges class="ArrayList">
+      <object class="TransitionEdge">
+        <from idref="0"/>
+        <to idref="1"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="1"/>
+        <to idref="6"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="6"/>
+        <to idref="7"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="7"/>
+        <to idref="9"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="9"/>
+        <to idref="11"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="11"/>
+        <to idref="12"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="12"/>
+        <to idref="13"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="13"/>
+        <to idref="14"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="14"/>
+        <to idref="15"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="15"/>
+        <to idref="16"/>
+        <name/>
+        <comment/>
+      </object>
+      <object class="TransitionEdge">
+        <from idref="16"/>
+        <to idref="17"/>
+        <name/>
+        <comment/>
+      </object>
+    </edges>
+  </body>
+</object>
