@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <schedule id="1">
-  <id>18170569888681</id>
+  <id>21295734184523</id>
   <name>Schedule 1</name>
   <blockJob id="2">
     <block class="com.kapowtech.scheduler.server.entity.SequentialBlock" id="3">
       <project id="4"/>
-      <name>Schedule 11697733011629</name>
+      <name>Schedule 11697736136793</name>
       <namedBlock>false</namedBlock>
       <childReference id="5">
         <child class="concurrentBlock" id="6">
@@ -40,7 +40,7 @@
   &lt;__inputObjects&gt;
     &lt;InputObject&gt;
       &lt;allowNestedValues&gt;true&lt;/allowNestedValues&gt;
-      &lt;__variableName&gt;Schedule 11697733011629#0#Schedule 1:middleBlock#0#11.3 v2/DAS+SQL#delay&lt;/__variableName&gt;
+      &lt;__variableName&gt;Schedule 11697736136793#0#Schedule 1:middleBlock#0#11.3 v2/DAS+SQL#delay&lt;/__variableName&gt;
       &lt;__propertyNames&gt;
         &lt;string&gt;variableName&lt;/string&gt;
         &lt;string&gt;name&lt;/string&gt;
@@ -50,7 +50,7 @@
       &lt;__attributes&gt;
         &lt;Attribute&gt;
           &lt;type&gt;NUMBER&lt;/type&gt;
-          &lt;value&gt;1&lt;/value&gt;
+          &lt;value&gt;1800&lt;/value&gt;
           &lt;__name&gt;val&lt;/__name&gt;
           &lt;required&gt;false&lt;/required&gt;
           &lt;visible&gt;true&lt;/visible&gt;
@@ -59,7 +59,7 @@
     &lt;/InputObject&gt;
     &lt;InputObject&gt;
       &lt;allowNestedValues&gt;true&lt;/allowNestedValues&gt;
-      &lt;__variableName&gt;Schedule 11697733011629#0#Schedule 1:middleBlock#0#11.3 v2/DAS+SQL#what2find&lt;/__variableName&gt;
+      &lt;__variableName&gt;Schedule 11697736136793#0#Schedule 1:middleBlock#0#11.3 v2/DAS+SQL#what2find&lt;/__variableName&gt;
       &lt;__propertyNames&gt;
         &lt;string&gt;variableName&lt;/string&gt;
         &lt;string&gt;name&lt;/string&gt;
@@ -132,7 +132,7 @@
   <scheduler class="org.quartz.impl.StdScheduler" id="11">
     <scheduler/></scheduler>
   <trigger class="org.quartz.impl.triggers.SimpleTriggerImpl" id="12">
-    <name>18170569888681</name>
+    <name>21295734184523</name>
     <start id="13">2023-10-19 16:20:00.0 UTC</start>
     <interval>3600000</interval>
     <repeatCount>-1</repeatCount>
@@ -141,6 +141,6 @@
   <tasksPriority>MEDIUM</tasksPriority>
   <tasksTimeout>600000</tasksTimeout>
   <commitMessage/>
-  <lastModified id="14">2023-10-19 16:30:12.0 UTC</lastModified>
+  <lastModified id="14">2023-10-19 17:22:17.0 UTC</lastModified>
   <serializationVersion>1</serializationVersion>
 </schedule>
